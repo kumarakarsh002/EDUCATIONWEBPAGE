@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.main-navigation{
+    border: 2px solid black;
+    border-radius: 45px;
+    display: flex;
+    width: 90%;
+    /* padding: 15px; */
+    align-items: center;
+    position: sticky;
+    z-index: 1000;
+    background-color: white;
+    top: 20px;
+    
+    
+
+}
+.main-navigation-heading{
+    border: 2px solid green;
+    
+    width: 15%;
+}
+
+
+.main-navigation-menu{
+    border: 2px solid gray;
+    width: 70%;
+    /* flex: 1; */
+    
+    
+    
+}
+.main-navigation-menu nav{
+    display: flex;
+}
+
+.main-navigation-daynight{
+    border: 2px solid pink;
+    width: 15%;
+}
+
+
+
+
+
+
+
+/* Hero Section */
+.main-herosection{
+    border: 2px solid purple;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-herosection-container{
+    border: 2px solid green;
+    border-radius: 15px;
+    width: 90%;
+    display: flex;
+
+}
+.main-herosection-container-left{
+    border: 2px solid magenta;
+    flex: 1.2;
+}
+.main-herosection-container-right{
+    border: 2px solid violet;
+    flex: 1;
+}
+
+
+
+
+
+
+.box{
+    border: 2px solid greenyellow;
+    height: 1450px;
+    width: 50%;
+}
