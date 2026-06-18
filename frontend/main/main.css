@@ -30,13 +30,29 @@ body{
 .main-navigation-menu{
     border: 2px solid gray;
     width: 70%;
-    /* flex: 1; */
+    
     
     
     
 }
-.main-navigation-menu nav{
+
+.main-navigation-menu ul{
+    list-style: none;
     display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.main-navigation-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-navigation-menu ul li a:hover {
+    color: blue;
+    
 }
 
 .main-navigation-daynight{
