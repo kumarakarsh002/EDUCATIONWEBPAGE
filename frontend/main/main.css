@@ -69,7 +69,7 @@ body{
 /* Hero Section */
 .main-herosection{
     border: 2px solid purple;
-    margin-top: 50px;
+    margin-top: 45px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -78,8 +78,8 @@ body{
 .main-herosection-container{
     border: 2px solid green;
     border-radius: 15px;
-    width: 85%;
-    height: 450px;
+    width: 95%;
+    height: 500px;
     display: flex;
     background-color: white;
     box-shadow: 4px;
@@ -88,21 +88,29 @@ body{
 .main-herosection-container-left{
     border: 2px solid magenta;
     flex: 1.2;
+    overflow: hidden;
 }
 .main-herosection-container-left-heading{
-    font-size: 250%;
+    font-size: 350%;
     padding-left: 15px;
-    line-height: 75%;
+    margin-top: 3%;
     font-weight: bold;
 
+}
+.main-herosection-container-left-paragraph{
+    font-size: 130%;
+    color: gray;
+    padding-left: 15px;
+    margin-top: -8%;
 }
 .main-herosection-container-left-button{
     border: 2px solid black;
     margin-top: 100px;
     margin-left: 45px;
     cursor: pointer;
-    padding: 10px 30px 10px 30px;
-    border-radius: 6px;
+    padding: 12px 35px 12px 35px;
+    border-radius: 12px;
+    font-size: large;
 }
 
 .main-herosection-container-right{
@@ -113,9 +121,10 @@ body{
     align-items: center;
 }
 .main-herosection-container-right img{
-    height: 80%;
-    width: 80%;
+    height: 85%;
+    width: 85%;
     object-fit: cover;
+    border: 2px solid grey;
 }
 
 
