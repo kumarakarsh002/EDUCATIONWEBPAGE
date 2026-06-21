@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.dashboard-left{
+    border: 2px solid red ;
+    width: 20%;
+    height: 600px;
+    border-radius: 10px;
+}
+.dashboard-left-profilesection{
+    border: 2px solid darkcyan;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboard-left-profilesection-profile{
+    border: 2px solid green;
+    margin-top: 6%;
+    width: 50%;
+    height: 50%;
+    border-radius: 80%;
+    overflow: hidden;
+}
+.dashboard-left-profilesection-profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.dashboard-left-profilesection-content{
+    border: 2px solid chartreuse;
+    text-align: center;
+}
+.dashboard-left-websection{
+    border: 2px solid sienna;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-left-websection-button{
+    border: 2px solid chartreuse;
+    padding: 8px 55px 8px 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dashboard-left-navsection{
+    border: 2px solid green;
+    height: 35%;
+}
+.dashboard-left-navsection ul{
+    list-style: none;
+    padding: 0%;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+    
+    
+    
+}
+.dashboard-left-navsection ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid gray;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 4px 0px 4px 0px;
+    border-radius: 5px;
+    
+    
+}
+.dashboard-left-logoutsection{
+    border: 2px solid sienna;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-left-logoutsection-button{
+    border: 2px solid pink;
+    padding: 10px 60px 10px 60px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.dashboard-right{
+    border: 2px solid seagreen;
+    width: 75%;
+    height: 600px;
+    border-radius: 10px;
+}
