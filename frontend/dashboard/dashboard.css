@@ -19,9 +19,9 @@ body{
 .dashboard-left-profilesection-profile{
     border: 2px solid green;
     margin-top: 6%;
-    width: 50%;
-    height: 50%;
-    border-radius: 80%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     overflow: hidden;
 }
 .dashboard-left-profilesection-profile img{
