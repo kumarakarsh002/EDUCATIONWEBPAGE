@@ -144,10 +144,39 @@ body{
 }
 .main-aboutsection-container{
     border: 2px solid green;
-    width: 85%;
+    width: 95%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal center */
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.main-aboutsection-container-about{
+    
+    border: 2px slateblue solid;
+    padding: 10px 60px;
+    border: 1px solid #cfcfff;
+    border-radius: 30px;
+    color: #42b4ff;
+    font-weight: 600;
+    margin-top: 5%;
+      
+        
+}
+.main-aboutsection-container-heading{
+    font-size: 230%;
+    font-weight: bold;
+    margin: 1%;
+    
+}
+.main-aboutsection-container-paragraph{
+    font-size: 120%;
+    
+    margin: 0%;
 
 }
-
 
 
 
